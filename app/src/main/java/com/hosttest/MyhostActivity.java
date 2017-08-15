@@ -14,6 +14,9 @@ import com.didi.virtualapk.PluginManager;
 
 import java.io.File;
 
+/**
+ * host的布局文件必须和类名对应  不能合plugin 相同
+ */
 public class MyhostActivity extends Activity {
     private Button mButton;
 
